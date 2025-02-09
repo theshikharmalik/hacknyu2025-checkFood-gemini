@@ -17,7 +17,7 @@ gemini_api_key = os.environ['API_KEY']
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://hacknyu2025-tailwise.vercel.app/"],
+    allow_origins=["https://hacknyu2025-tailwise.vercel.app"],
     #allow_origins=["http://localhost:8080"],
     allow_credentials=True,
     allow_methods=["*"],
