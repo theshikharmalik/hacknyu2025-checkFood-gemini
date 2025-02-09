@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src":"/gemini-api,py",
+      "src":"/gemini-api.py",
       "use": "@vercel/python"
     }
   ],
